@@ -1,4 +1,4 @@
-import db from "@repo/db/client";
+import db from "@prisma/client";
 import CredentialsProvider from "next-auth/providers/credentials"
 import bcrypt from "bcrypt";
 
@@ -40,7 +40,7 @@ export const authOptions = {
                     }
                 });
             
-                
+
                 return {
                     id: user.id.toString(),
                     name: user.name,
