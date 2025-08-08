@@ -18,6 +18,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
+
       <Providers>
         <body className={inter.className}>
           <div className="min-w-screen min-h-screen bg-[#ebe6e6]">
@@ -26,6 +27,7 @@ export default function RootLayout({
           </div>
         </body>
       </Providers>
+      
     </html>
   );
 }
