@@ -16,13 +16,5 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2022",
-    "baseUrl": ".", 
-    "paths": {
-      "@repo/db/*": ["packages/db/src/*"],
-      "@repo/ui/*": ["packages/ui/src/*"],
-      "@repo/store/*": ["packages/store/src/*"],
-      "@repo/typescript-config/*": ["packages/typescript-config/*"],
-      "@repo/eslint-config/*": ["packages/eslint-config/*"]
-    }
   }
 }
