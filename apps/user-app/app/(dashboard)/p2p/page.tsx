@@ -3,6 +3,7 @@ import { Button } from "@repo/ui/button";
 import { TextInput } from "@repo/ui/textinput";
 import { useState } from "react"
 import { p2ptransfer } from "../../lib/actions/p2ptransfer";
+import React from "react";
 
 export default function SendPage(){
     const [number,setNumber] = useState('');

@@ -1,4 +1,5 @@
 import { Card } from "@repo/ui/card"
+import React from "react"
 
 export const OnRampTransactions = ({
     transactions

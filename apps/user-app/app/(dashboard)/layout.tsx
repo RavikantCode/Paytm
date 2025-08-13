@@ -1,5 +1,6 @@
 import { title } from "process";
 import { SidebarItem } from "../../components/SidebarItem";
+import React from "react";
 
 export default function Layout({
   children,
